@@ -7,7 +7,7 @@
 var userChoice;
 var computerChoice;
 var winner;
-var randomNumber;
+var randomNumber=Math.random();
 
 // DOCUMENT READY FUNCTION BELOW
 
@@ -25,7 +25,7 @@ $("button").click(function() {
    //$("#computerChoice").text($("#input").val());
    
    
-   var randomNumber= Math.random();
+   var randomNumber= 
    
 console.log(randomNumber);
 if(randomNumber< .3333333) {
